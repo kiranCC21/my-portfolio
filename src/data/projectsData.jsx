@@ -27,6 +27,11 @@ export const PROJECTS_DATA = [
     impact: "Deployed scalable event platform with automated registrations and result publishing",
     role: "Full Stack Web Developer & Automation Engineer & Team Lead",
   },
+  { title: "Buddhiman WhatsApp Automation", 
+    desc: "Implemented WhatsApp automation workflows to enable event registration and participant onboarding.",
+    tech: "WhatsApp API, Automation Workflows", 
+    impact: "Automated event signups and participant engagement through WhatsApp-based workflows", 
+    role: "Automation Engineer & Team Lead", },
   {
     title: "Skin Disease Detection (CNN)",
     desc: "CNN-based medical image classification system achieving 96.8% accuracy.",
