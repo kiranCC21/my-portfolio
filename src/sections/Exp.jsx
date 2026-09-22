@@ -67,7 +67,7 @@ function Experience() {
               </h3>
 
               <span className="text-sm font-medium text-gray-600">
-                {group.level}%
+                {group.level}
               </span>
 
             </div>
