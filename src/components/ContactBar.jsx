@@ -6,7 +6,7 @@ const ContactBar = ({ hidden }) => {
   if (hidden) return null;
 
   return (
-    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 flex items-center gap-6 bg-white px-5 py-3 rounded-tl-xl rounded-tr-xl shadow-lg z-[1000]">
+    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 flex items-center gap-6 bg-white text-black px-5 py-3 rounded-tl-xl rounded-tr-xl shadow-lg z-[1000] mix-blend-difference">
 
       <p>Contact Me</p>
 
@@ -17,7 +17,7 @@ const ContactBar = ({ hidden }) => {
         rel="noopener noreferrer"
         aria-label="LinkedIn Profile"
       >
-        <IoLogoLinkedin className="text-2xl text-gray-800 hover:text-blue-500 transition" />
+        <IoLogoLinkedin className="text-2xl transition hover:opacity-75" />
       </a>
     </div>
 
