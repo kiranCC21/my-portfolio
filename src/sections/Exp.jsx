@@ -63,6 +63,7 @@ function Experience() {
                 {group.level}
               </span>
             </div>
+             <div className="w-16 h-1 bg-indigo-600 rounded-full mb-5"></div>
 
             {/* Render Details with Bold Labels */}
             <div className="mb-3 space-y-2">
