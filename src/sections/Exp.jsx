@@ -56,7 +56,7 @@ function Experience() {
             className="bg-white p-6 rounded-2xl shadow-sm border hover:shadow-md transition relative overflow-hidden"
           >
              {/* Horizontal Line at Top Left */}
-            <div className="w-16 h-1 bg-indigo-600 rounded-full mb-5"></div>
+            <div className="w-12 h-1 bg-green-600 mb-4 rounded-full" />
             
             {/* Header */}
             <div className="flex justify-between items-center mb-2">
