@@ -55,6 +55,9 @@ function Experience() {
             transition={{ duration: 0.4, delay: index * 0.05 }}
             className="bg-white p-6 rounded-2xl shadow-sm border hover:shadow-md transition relative overflow-hidden"
           >
+             {/* Horizontal Line at Top Left */}
+            <div className="w-16 h-1 bg-indigo-600 rounded-full mb-5"></div>
+            
             {/* Header */}
             <div className="flex justify-between items-center mb-2">
               <h3 className="font-bold text-xl text-indigo-600">
@@ -65,8 +68,7 @@ function Experience() {
               </span>
             </div>
 
-            {/* Horizontal Line at Top Left */}
-            <div className="w-16 h-1 bg-indigo-600 rounded-full mb-5"></div>
+           
 
             {/* Render Details with Bold Labels */}
             <div className="mb-3 space-y-2">
