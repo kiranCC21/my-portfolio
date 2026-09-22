@@ -66,7 +66,7 @@ function Experience() {
                 {group.category}
               </h3>
 
-              <span className="text-sm font-medium-semibold text-black">
+              <span className="text-sm font-semibold text-black">
                 {group.level}
               </span>
 
