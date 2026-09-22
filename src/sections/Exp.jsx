@@ -70,32 +70,17 @@ function Experience() {
               </span>
 
             </div>
+            {/* Company Name */}
+            <div className="mb-3">
+              {group.Company_Name.map((item, i) => (
 
-            {/* Progress Bar */}
-            <div className="w-full bg-gray-200 rounded-full h-2 mb-4">
-
-              <div
-                className="bg-green-600 h-2 rounded-full transition-all duration-500"
-                style={{ width: `${group.level}%` }}
-              />
-
-            </div>
-
-            {/* Skill Tags */}
-            <div className="flex flex-wrap gap-2">
-
-              {group.skills.map((skill, i) => (
-
-                <span
-                  key={i}
-                  className="text-sm bg-amber-100 text-amber-800 border border-amber-400 px-3 py-1 rounded-full"
-                >
-                  {skill}
-                </span>
+                <p key={i} className="text-gray-700">
+                  {item}
+                </p>
 
               ))}
-
             </div>
+
 
           </motion.div>
 
@@ -118,4 +103,4 @@ function Experience() {
   );
 }
 
-export default Skills;
+export default Experience;
