@@ -10,6 +10,7 @@ function App() {
     <>
       <Home />
       <Skills />
+      <Exp />
       <Projects />
       <Footer />
     </>
