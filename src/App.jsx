@@ -1,6 +1,6 @@
 import Home from "./sections/Home";
 import Skills from "./sections/skills";
-import Skills from "./sections/Exp";
+import Exp from "./sections/Exp";
 import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
 
