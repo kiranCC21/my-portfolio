@@ -6,7 +6,7 @@ import Button from "../components/Button";
 const Company_Name = ["Yaticorp India Private Limited", "Concentrix Services India Private Limited"];
 const EXP_GROUPS = [
   {
-    category: "Exp1",
+    category: "Yaticorp India Private Limited",
     Company_Name: [
       "Company Name: " + Company_Name[0], 
       "Duration: 16 December 2024 - 31 December 2025",
@@ -15,7 +15,7 @@ const EXP_GROUPS = [
     ],
   },
     {
-    category: "Exp2",
+    category: "Concentrix Services India Private Limited",
     Company_Name: [
       "Company Name: " + Company_Name[1],  
       "Duration: 6 July 2026 - Present",
