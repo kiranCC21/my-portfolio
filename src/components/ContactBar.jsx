@@ -17,7 +17,7 @@ const ContactBar = ({ hidden }) => {
         rel="noopener noreferrer"
         aria-label="LinkedIn Profile"
       >
-        <IoLogoLinkedin className="text-2xl text-gray-400 dark:text-gray-600 transition hover:text-blue-500 dark:hover:text-blue-600" />
+        <IoLogoLinkedin className="text-2xl text-gray-400 dark:text-black transition hover:text-blue-500 dark:hover:text-blue-600" />
       </a>
     </div>
 
@@ -28,7 +28,7 @@ const ContactBar = ({ hidden }) => {
         rel="noopener noreferrer"
         aria-label="WhatsApp Chat"
       >
-        <FaWhatsapp className="text-2xl text-gray-400 dark:text-gray-600 transition hover:text-green-500 dark:hover:text-green-600" />
+        <FaWhatsapp className="text-2xl text-gray-400 dark:text-black transition hover:text-green-500 dark:hover:text-green-600" />
 
       </a>
     </div>
@@ -38,7 +38,7 @@ const ContactBar = ({ hidden }) => {
         href="mailto:kiranchoutaje@gmail.com"
         aria-label="Send Email"
       >
-        <IoMailOutline className="text-2xl text-gray-400 dark:text-gray-600 transition hover:text-amber-500 dark:hover:text-amber-600" />
+        <IoMailOutline className="text-2xl text-gray-400 dark:text-black transition hover:text-amber-500 dark:hover:text-amber-600" />
 
       </a>
     </div>
