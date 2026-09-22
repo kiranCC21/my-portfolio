@@ -3,6 +3,7 @@ import Expc from "../components/Expcard";
 import { Link as ScrollLink } from "react-scroll";
 import Button from "../components/Button";
 // ---------------- EXPERIENCE DATA ----------------
+// ---------------- EXPERIENCE DATA ----------------
 const Company_Name = ["Yaticorp India Private Limited", "Concentrix Services India Private Limited"];
 
 const EXP_GROUPS = [
@@ -52,10 +53,10 @@ function Experience() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: index * 0.05 }}
-            className="bg-white p-6 rounded-2xl shadow-sm border hover:shadow-md transition"
+            className="bg-white p-6 rounded-2xl shadow-sm border hover:shadow-md transition relative overflow-hidden"
           >
             {/* Header */}
-            <div className="flex justify-between items-center mb-3">
+            <div className="flex justify-between items-center mb-2">
               <h3 className="font-bold text-xl text-indigo-600">
                 {group.category}
               </h3>
@@ -63,7 +64,9 @@ function Experience() {
                 {group.level}
               </span>
             </div>
-             <div className="w-16 h-1 bg-indigo-600 rounded-full mb-5"></div>
+
+            {/* Horizontal Line at Top Left */}
+            <div className="w-16 h-1 bg-indigo-600 rounded-full mb-5"></div>
 
             {/* Render Details with Bold Labels */}
             <div className="mb-3 space-y-2">
