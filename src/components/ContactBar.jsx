@@ -37,7 +37,7 @@ const ContactBar = ({ hidden }) => {
         href="mailto:kiranchoutaje@gmail.com"
         aria-label="Send Email"
       >
-        <IoMailOutline className="text-2xl text-gray-800 hover:text-amber-500 transition" />
+        <IoMailOutline className="text-2xl text-blue-800 hover:text-amber-500 transition" />
       </a>
     </div>
     </div>
