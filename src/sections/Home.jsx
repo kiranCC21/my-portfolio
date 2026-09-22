@@ -71,7 +71,7 @@ function Home() {
             <Button>Projects</Button>
           </ScrollLink>
           
-          <a href="/Kiran.CC_Resume.pdf" download> <Button variant="outline">Resume</Button> </a>
+          <a href="/Kiran_CC_Resume3.pdf" download> <Button variant="outline">Resume</Button> </a>
 
         </div>
 
