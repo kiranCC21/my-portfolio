@@ -114,8 +114,8 @@ function Experience() {
   return (
     <div
       id="Experience"
-      className="bg-black bg-fixed bg-cover"
-      style={{ backgroundImage: "url('/projectbg.jpg')" }}
+    //   className="bg-black bg-fixed bg-cover"
+    //   style={{ backgroundImage: "url('/projectbg.jpg')" }}
     >
 
       {EXP_DATA.map((exp, index) => (
