@@ -6,7 +6,7 @@ const ContactBar = ({ hidden }) => {
   if (hidden) return null;
 
   return (
-    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 flex items-center gap-6 bg-white text-black px-5 py-3 rounded-tl-xl rounded-tr-xl shadow-lg z-[1000] mix-blend-difference">
+    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 flex items-center gap-6 bg-black text-white dark:bg-white dark:text-black px-5 py-3 rounded-tl-xl rounded-tr-xl shadow-lg z-[1000]">
 
       <p>Contact Me</p>
 
